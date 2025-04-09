@@ -1,5 +1,13 @@
 # XFT AUTH SERVER
 
+### PREREQUISITES
+```
+FIREBASE_API_KEY=
+FIREBASE_AUTH_DOMAIN=
+FIREBASE_PROJECT_ID=
+```
+
+
 - auth.xft.finance
 - Use Express in index.js on replit for MVP.
 - Create /login to display a basic login form.
