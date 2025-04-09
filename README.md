@@ -1,5 +1,15 @@
 # XFT AUTH SERVER
 
+- auth.xft.finance
+- Use Express in index.js on replit for MVP.
+- Create /login to display a basic login form.
+- Create /auth to process credentials.
+- Hardcode user credentials for prototype.
+- Use jsonwebtoken for JWT sign/verify.
+- On success, redirect with JWT via /callback.
+- Validate JWT in protected endpoints.
+- Keep all logic in index.js.
+
 
 ### SEQUENCE
 1. User visits Website A.
