@@ -19,7 +19,7 @@ Here’s the complete `index.js` code for your `auth.xft.finance` server MVP, al
 ### Dependencies
 Install these via npm:
 ```bash
-npm install express jsonwebtoken body-parser
+npm install express jsonwebtoken body-parser firebase firebase-admin
 ```
 - **express**: Web framework for routing and server setup.
 - **jsonwebtoken**: For signing and verifying JWTs.
