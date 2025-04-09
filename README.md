@@ -6,8 +6,10 @@ FIREBASE_API_KEY=
 FIREBASE_AUTH_DOMAIN=
 FIREBASE_PROJECT_ID=
 ```
-
-
+### NOTES
+- FIREBASE_API_KEY: Your Web API Key from Firebase console
+- FIREBASE_AUTH_DOMAIN: Use <PROJECT_ID>.firebaseapp.com
+- FIREBASE_PROJECT_ID: Your project's ID 
 - auth.xft.finance
 - Use Express in index.js on replit for MVP.
 - Create /login to display a basic login form.
