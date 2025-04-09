@@ -10,6 +10,15 @@ FIREBASE_PRIVATE_KEY=
 ```
 
 
+### Dependencies
+Install these via npm:
+```bash
+npm install express jsonwebtoken body-parser firebase firebase-admin
+```
+- **express**: Web framework for routing and server setup.
+- **jsonwebtoken**: For signing and verifying JWTs.
+- **body-parser**: Parses form data from requests.
+
 
 ### NOTES
 - FIREBASE_API_KEY: Your Web API Key from Firebase console
@@ -25,20 +34,6 @@ FIREBASE_PRIVATE_KEY=
 - Validate JWT in protected endpoints.
 - Keep all logic in index.js.
 
-
-
-Here’s the complete `index.js` code for your `auth.xft.finance` server MVP, along with the required dependencies and a concise explanation of how it works.
-
----
-
-### Dependencies
-Install these via npm:
-```bash
-npm install express jsonwebtoken body-parser firebase firebase-admin
-```
-- **express**: Web framework for routing and server setup.
-- **jsonwebtoken**: For signing and verifying JWTs.
-- **body-parser**: Parses form data from requests.
 
 ---
 
